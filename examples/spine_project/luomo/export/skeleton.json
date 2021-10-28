@@ -1,0 +1,60 @@
+{
+    "skeleton": {
+        "hash": "QOQqyZUe7UlSZ6mBMxySQGRWRwM",
+        "spine": "3.8.99",
+        "x": -86.48,
+        "y": -0.42,
+        "width": 164,
+        "height": 329,
+        "images": "./images/",
+        "audio": ""
+    },
+    "bones": [
+        { "name": "root", "x": -4.98, "y": 63.08 },
+        { "name": "head", "parent": "root", "length": 100, "rotation": 90.41, "x": 0.59, "y": 166.33 }
+    ],
+    "slots": [
+        { "name": "head", "bone": "head", "attachment": "head" },
+        { "name": "body", "bone": "root", "attachment": "body" },
+        { "name": "left_foot", "bone": "root", "attachment": "left_foot" },
+        { "name": "right_foot", "bone": "root", "attachment": "right_foot" },
+        { "name": "front_hand", "bone": "root", "attachment": "front_hand" },
+        { "name": "back_hand", "bone": "root", "attachment": "back_hand" }
+    ],
+    "skins": [{
+        "name": "default",
+        "attachments": {
+            "back_hand": {
+                "back_hand": { "x": -59, "y": 132, "width": 45, "height": 71 }
+            },
+            "body": {
+                "body": { "x": 2, "y": 90, "width": 101, "height": 151 }
+            },
+            "front_hand": {
+                "front_hand": { "x": 60, "y": 131, "width": 45, "height": 71 }
+            },
+            "head": {
+                "head": { "x": 48.68, "y": 1.24, "rotation": -90.41, "width": 101, "height": 101 }
+            },
+            "left_foot": {
+                "left_foot": { "x": -17, "y": -22, "width": 21, "height": 81 }
+            },
+            "right_foot": {
+                "right_foot": { "x": 26, "y": -23, "width": 21, "height": 81 }
+            }
+        }
+    }],
+    "animations": {
+        "idle": {
+            "bones": {
+                "head": {
+                    "rotate": [
+                        { "time": 0.3333, "angle": -10.41 },
+                        { "time": 0.6667, "angle": 9.59 }
+                    ]
+                }
+            }
+        },
+        "walk": {}
+    }
+}

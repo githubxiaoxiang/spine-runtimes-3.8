@@ -1,0 +1,51 @@
+{
+"skeleton": {
+	"hash": "cFolmcIrkWK431jYVt5cT+Mc2w4",
+	"spine": "3.8.99",
+	"x": -43.02,
+	"y": 0.16,
+	"width": 86,
+	"height": 89.13,
+	"images": "./images/",
+	"audio": ""
+},
+"bones": [
+	{ "name": "root", "x": -4.98, "y": 63.08 },
+	{ "name": "trouser_1", "parent": "root", "x": 4.98, "y": -63.08 }
+],
+"slots": [
+	{ "name": "trouser_1", "bone": "trouser_1", "attachment": "trouser_1" }
+],
+"skins": [
+	{
+		"name": "default",
+		"attachments": {
+			"trouser_1": {
+				"trouser_1": {
+					"type": "mesh",
+					"uvs": [ 0.94924, 0.9612, 0.03045, 0.9903, 0, 0, 1, 0 ],
+					"triangles": [ 0, 2, 3, 1, 2, 0 ],
+					"vertices": [ 38.62, 2.78, -40.4, 0.16, -43.02, 89.29, 42.98, 89.29 ],
+					"hull": 4,
+					"edges": [ 0, 2, 2, 4, 4, 6, 0, 6 ],
+					"width": 86,
+					"height": 90
+				}
+			}
+		}
+	}
+],
+"animations": {
+	"idle": {
+		"bones": {
+			"trouser_1": {
+				"translate": [
+					{ "time": 0.2333, "x": 1, "y": 1 },
+					{ "time": 0.6667, "x": 5, "y": 5 },
+					{ "time": 1 }
+				]
+			}
+		}
+	}
+}
+}

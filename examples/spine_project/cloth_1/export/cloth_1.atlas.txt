@@ -1,0 +1,13 @@
+
+cloth_1.png
+size: 196,265
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+cloth
+  rotate: false
+  xy: 2, 2
+  size: 192, 261
+  orig: 194, 263
+  offset: 1, 1
+  index: -1

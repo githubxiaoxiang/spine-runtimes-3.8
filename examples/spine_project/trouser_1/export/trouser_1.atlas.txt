@@ -1,0 +1,13 @@
+
+trouser_1.png
+size: 90,94
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+trouser_1
+  rotate: false
+  xy: 2, 2
+  size: 86, 90
+  orig: 86, 90
+  offset: 0, 0
+  index: -1

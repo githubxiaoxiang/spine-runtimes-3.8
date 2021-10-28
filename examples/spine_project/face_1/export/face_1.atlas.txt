@@ -1,0 +1,13 @@
+
+face_1.png
+size: 89,51
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+face_1
+  rotate: false
+  xy: 2, 2
+  size: 85, 47
+  orig: 85, 47
+  offset: 0, 0
+  index: -1
